@@ -1,0 +1,61 @@
+/* Navbar */
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* Added to control stacking order */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+/* Header */
+header {
+    font-size: 45px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.info {
+    padding: 100px;
+    background-color: #cacaca;
+}
+
+/* Featured Products Section */
+.featured-products {
+    background-color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2{
+    color: white;
+    font-size: 30px;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
